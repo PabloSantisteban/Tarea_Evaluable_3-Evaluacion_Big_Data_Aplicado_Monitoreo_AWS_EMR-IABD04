@@ -28,6 +28,15 @@ El objetivo principal de esta práctica es desplegar un sistema de monitoreo que
 - **Grafana** – Herramienta de visualización y monitoreo en tiempo real de métricas
 
 
+## Despliegue y configuración
+
+1. Se creó un clúster **EMR** con un nodo maestro y dos nodos core.
+2. En el NameNode, se configuró **JMX Exporter** para exponer métricas en el puerto `12345`.
+3. Se desplegó una instancia **EC2** (Ubuntu) donde se instalaron **Prometheus** y **Grafana**.
+4. Se configuró `prometheus.yml` para apuntar al NameNode.
+5. Se creó un **dashboard en Grafana** con visualizaciones personalizadas de las métricas clave del clúster.
+
+
 ## Métricas visualizadas
 
 A través del panel de Grafana, se visualizaron las siguientes métricas clave:
@@ -38,18 +47,9 @@ A través del panel de Grafana, se visualizaron las siguientes métricas clave:
 - **Estado del NameNode**: `hadoop_namenode_safemodecount{name="StartupProgress"}`
 
 
-## Despliegue y configuración
-
-1. Se creó un clúster **EMR** con un nodo maestro y dos nodos core.
-2. En el NameNode, se configuró **JMX Exporter** para exponer métricas en el puerto `12345`.
-3. Se desplegó una instancia **EC2** (Ubuntu) donde se instalaron **Prometheus** y **Grafana**.
-4. Se configuró `prometheus.yml` para apuntar al NameNode.
-5. Se creó un **dashboard en Grafana** con visualizaciones personalizadas de las métricas clave del clúster.
-
-
 ## Informe
 
 Para una explicación completa del proceso, puedes consultar el informe en PDF incluido en este repositorio.
 
 
-*Autor: Pablo Santisteban Fernández – Curso Especialización en IA y Big Data*
+*Autor: Pablo Santisteban Fernández – IABD04*
