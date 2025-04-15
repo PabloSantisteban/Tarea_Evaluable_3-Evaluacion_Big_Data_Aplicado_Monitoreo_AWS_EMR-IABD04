@@ -49,7 +49,7 @@ A través del panel de Grafana, se visualizaron las siguientes métricas clave:
 
 ## Informe
 
-Para una explicación completa del proceso, puedes consultar el informe en PDF incluido en este repositorio.
+Para una explicación completa del proceso, puedes consultar el [informe](./Tarea_Evaluable_3ªEvaluación_Big_Data_Aplicado_Monitoreo_AWS_EMR - IABD04.pdf) en PDF incluido en este repositorio.
 
 
 *Autor: Pablo Santisteban Fernández – IABD04*
