@@ -1,4 +1,4 @@
-# Tarea_Evaluable_3-Evaluacion_Big_Data_Aplicado_Monitoreo_AWS_EMR-IABD04
+# Tarea_Evaluable_3 - Evaluacion_Big_Data_Aplicado_Monitoreo_AWS_EMR-IABD04
 
 Este repositorio contiene los archivos de configuración y documentación correspondientes a una práctica de monitoreo en un clúster **AWS EMR**, utilizando herramientas como **JMX Exporter**, **Prometheus** y **Grafana**.
 
