@@ -6,7 +6,6 @@ Este repositorio contiene los archivos de configuración y documentación corres
 
 El objetivo principal de esta práctica es desplegar un sistema de monitoreo que permita observar el estado y rendimiento de un clúster **EMR**. Para ello, se exponen métricas clave desde el NameNode mediante **JMX Exporter**, se recolectan desde una instancia EC2 con **Prometheus** y se visualizan mediante paneles en **Grafana**.
 
----
 
 ## Estructura del repositorio
 
@@ -18,7 +17,6 @@ El objetivo principal de esta práctica es desplegar un sistema de monitoreo que
   
   ├── Tarea_Evaluable_3ªEvaluación_Big_Data_Aplicado_Monitoreo_AWS_EMR - IABD04.pdf # Manual paso a paso de la tarea
 
----
 
 ## Herramientas utilizadas
 
@@ -28,7 +26,6 @@ El objetivo principal de esta práctica es desplegar un sistema de monitoreo que
 - **Prometheus** – Recolección y almacenamiento de métricas
 - **Grafana** – Visualización en tiempo real de métricas
 
----
 
 ## Métricas visualizadas
 
@@ -39,7 +36,6 @@ A través del panel de Grafana, se visualizaron las siguientes métricas clave:
 - **Espacio en HDFS**: `hadoop_namenode_capacityusedgb`
 - **Estado del NameNode**: `hadoop_namenode_safemodecount{name="StartupProgress"}`
 
----
 
 ## Despliegue y configuración
 
@@ -49,12 +45,10 @@ A través del panel de Grafana, se visualizaron las siguientes métricas clave:
 4. Se configuró `prometheus.yml` para apuntar al NameNode.
 5. Se creó un **dashboard en Grafana** con visualizaciones personalizadas de las métricas clave del clúster.
 
----
 
 ## Informe
 
 Para una explicación completa del proceso, puedes consultar el informe en PDF incluido en este repositorio.
 
----
 
 *Autor: Pablo Santisteban Fernández – Curso Especialización en IA y Big Data*
