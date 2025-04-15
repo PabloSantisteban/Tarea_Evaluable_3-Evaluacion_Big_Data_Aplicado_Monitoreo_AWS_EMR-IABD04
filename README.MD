@@ -16,6 +16,7 @@ El objetivo principal de esta práctica es desplegar un sistema de monitoreo que
   - `prometheus.yml` – Configuración de Prometheus en EC2
 
 - `Tarea_Evaluable_3ªEvaluación_Big_Data_Aplicado_Monitoreo_AWS_EMR - IABD04.pdf` – Manual paso a paso de la tarea
+- `LICENSE` - Archivo de licencia que indica los términos bajo los cuales se distribuyen los archivos de este repositorio.
 
 
 ## Herramientas utilizadas
