@@ -1,6 +1,6 @@
 # Monitoreo de Clúster AWS EMR con Prometheus y Grafana
 
-Este repositorio contiene los archivos de configuración y documentación correspondientes a una práctica de monitoreo en un clúster de Big Data desplegado sobre **AWS EMR**, utilizando herramientas open source como **JMX Exporter**, **Prometheus** y **Grafana**.
+Este repositorio contiene los archivos de configuración y documentación correspondientes a una práctica de monitoreo en un clúster **AWS EMR**, utilizando herramientas como **JMX Exporter**, **Prometheus** y **Grafana**.
 
 ## Objetivo de la tarea
 
