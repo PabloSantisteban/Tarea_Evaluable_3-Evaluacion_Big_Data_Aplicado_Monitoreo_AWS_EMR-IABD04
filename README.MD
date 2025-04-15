@@ -2,7 +2,7 @@
 
 Este repositorio contiene los archivos de configuración y documentación correspondientes a una práctica de monitoreo en un clúster **AWS EMR**, utilizando herramientas como **JMX Exporter**, **Prometheus** y **Grafana**.
 
-## Objetivo de la tarea
+## Objetivo de la práctica
 
 El objetivo principal de esta práctica es desplegar un sistema de monitoreo que permita observar el estado y rendimiento de un clúster **EMR**. Para ello, se exponen métricas clave desde el NameNode mediante **JMX Exporter**, se recolectan desde una instancia EC2 con **Prometheus** y se visualizan mediante un dashboard en **Grafana**.
 
