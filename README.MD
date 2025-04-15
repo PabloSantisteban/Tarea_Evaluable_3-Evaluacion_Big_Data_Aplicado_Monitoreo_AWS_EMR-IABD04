@@ -21,10 +21,10 @@ El objetivo principal de esta práctica es desplegar un sistema de monitoreo que
 ## Herramientas utilizadas
 
 - **AWS EMR** – Clúster con Hadoop, Spark y Hive
-- **Instancia EC2** – Instancia para Prometheus y Grafana
-- **JMX Exporter** – Para exponer métricas del NameNode
-- **Prometheus** – Recolección y almacenamiento de métricas
-- **Grafana** – Visualización en tiempo real de métricas
+- **Instancia EC2** – Instancia de AWS para alojar Prometheus y Grafana
+- **JMX Exporter** – Herramienta para exponer métricas del NameNode
+- **Prometheus** – Sistema de recolección de métricas
+- **Grafana** – Herramienta de visualización y monitoreo en tiempo real de métricas
 
 
 ## Métricas visualizadas
