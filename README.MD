@@ -4,18 +4,18 @@ Este repositorio contiene los archivos de configuración y documentación corres
 
 ## Objetivo de la tarea
 
-El objetivo principal de esta práctica es desplegar un sistema de monitoreo que permita observar el estado y rendimiento de un clúster **EMR**. Para ello, se exponen métricas clave desde el NameNode mediante **JMX Exporter**, se recolectan desde una instancia EC2 con **Prometheus** y se visualizan mediante paneles en **Grafana**.
+El objetivo principal de esta práctica es desplegar un sistema de monitoreo que permita observar el estado y rendimiento de un clúster **EMR**. Para ello, se exponen métricas clave desde el NameNode mediante **JMX Exporter**, se recolectan desde una instancia EC2 con **Prometheus** y se visualizan mediante un dashboard en **Grafana**.
 
 
 ## Estructura del repositorio
 
-. ├── config_files/ │ 
-  	└── config.yml # Configuración de JMX Exporter
-  	└── hadoop-env.sh # Modificado para lanzar el agente JMX
-  	└── jmx_prometheus_javaagent-0.16.1.jar # Agente JMX para exponer las métricas del NameNode
-  	└── prometheus.yml # Configuración de Prometheus en EC2
-  
-  ├── Tarea_Evaluable_3ªEvaluación_Big_Data_Aplicado_Monitoreo_AWS_EMR - IABD04.pdf # Manual paso a paso de la tarea
+- `config_files/`
+  - `config.yml` – Configuración de JMX Exporter
+  - `hadoop-env.sh` – Modificado para lanzar el agente JMX
+  - `jmx_prometheus_javaagent-0.16.1.jar` – Agente JMX para exponer las métricas del NameNode
+  - `prometheus.yml` – Configuración de Prometheus en EC2
+
+- `Tarea_Evaluable_3ªEvaluación_Big_Data_Aplicado_Monitoreo_AWS_EMR - IABD04.pdf` – Manual paso a paso de la tarea
 
 
 ## Herramientas utilizadas
